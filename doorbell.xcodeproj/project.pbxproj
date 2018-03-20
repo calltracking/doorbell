@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69FD56BF20615CDF0071B178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD56BE20615CDF0071B178 /* AppDelegate.swift */; };
+		69FD56C120615CDF0071B178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD56C020615CDF0071B178 /* ViewController.swift */; };
+		69FD56C320615CDF0071B178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FD56C220615CDF0071B178 /* Assets.xcassets */; };
+		69FD56C620615CDF0071B178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69FD56C420615CDF0071B178 /* Main.storyboard */; };
+		69FD56D220615CDF0071B178 /* doorbellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD56D120615CDF0071B178 /* doorbellTests.swift */; };
+		69FD56DD20615CDF0071B178 /* doorbellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD56DC20615CDF0071B178 /* doorbellUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69FD56CE20615CDF0071B178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69FD56B320615CDF0071B178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69FD56BA20615CDF0071B178;
+			remoteInfo = doorbell;
+		};
+		69FD56D920615CDF0071B178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69FD56B320615CDF0071B178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69FD56BA20615CDF0071B178;
+			remoteInfo = doorbell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69FD56BB20615CDF0071B178 /* doorbell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doorbell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FD56BE20615CDF0071B178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69FD56C020615CDF0071B178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69FD56C220615CDF0071B178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69FD56C520615CDF0071B178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69FD56C720615CDF0071B178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69FD56C820615CDF0071B178 /* doorbell.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = doorbell.entitlements; sourceTree = "<group>"; };
+		69FD56CD20615CDF0071B178 /* doorbellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doorbellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FD56D120615CDF0071B178 /* doorbellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doorbellTests.swift; sourceTree = "<group>"; };
+		69FD56D320615CDF0071B178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69FD56D820615CDF0071B178 /* doorbellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doorbellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FD56DC20615CDF0071B178 /* doorbellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doorbellUITests.swift; sourceTree = "<group>"; };
+		69FD56DE20615CDF0071B178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69FD56B820615CDF0071B178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FD56CA20615CDF0071B178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FD56D520615CDF0071B178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69FD56B220615CDF0071B178 = {
+			isa = PBXGroup;
+			children = (
+				69FD56BD20615CDF0071B178 /* doorbell */,
+				69FD56D020615CDF0071B178 /* doorbellTests */,
+				69FD56DB20615CDF0071B178 /* doorbellUITests */,
+				69FD56BC20615CDF0071B178 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69FD56BC20615CDF0071B178 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69FD56BB20615CDF0071B178 /* doorbell.app */,
+				69FD56CD20615CDF0071B178 /* doorbellTests.xctest */,
+				69FD56D820615CDF0071B178 /* doorbellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69FD56BD20615CDF0071B178 /* doorbell */ = {
+			isa = PBXGroup;
+			children = (
+				69FD56BE20615CDF0071B178 /* AppDelegate.swift */,
+				69FD56C020615CDF0071B178 /* ViewController.swift */,
+				69FD56C220615CDF0071B178 /* Assets.xcassets */,
+				69FD56C420615CDF0071B178 /* Main.storyboard */,
+				69FD56C720615CDF0071B178 /* Info.plist */,
+				69FD56C820615CDF0071B178 /* doorbell.entitlements */,
+			);
+			path = doorbell;
+			sourceTree = "<group>";
+		};
+		69FD56D020615CDF0071B178 /* doorbellTests */ = {
+			isa = PBXGroup;
+			children = (
+				69FD56D120615CDF0071B178 /* doorbellTests.swift */,
+				69FD56D320615CDF0071B178 /* Info.plist */,
+			);
+			path = doorbellTests;
+			sourceTree = "<group>";
+		};
+		69FD56DB20615CDF0071B178 /* doorbellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69FD56DC20615CDF0071B178 /* doorbellUITests.swift */,
+				69FD56DE20615CDF0071B178 /* Info.plist */,
+			);
+			path = doorbellUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69FD56BA20615CDF0071B178 /* doorbell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69FD56E120615CDF0071B178 /* Build configuration list for PBXNativeTarget "doorbell" */;
+			buildPhases = (
+				69FD56B720615CDF0071B178 /* Sources */,
+				69FD56B820615CDF0071B178 /* Frameworks */,
+				69FD56B920615CDF0071B178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = doorbell;
+			productName = doorbell;
+			productReference = 69FD56BB20615CDF0071B178 /* doorbell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69FD56CC20615CDF0071B178 /* doorbellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69FD56E420615CDF0071B178 /* Build configuration list for PBXNativeTarget "doorbellTests" */;
+			buildPhases = (
+				69FD56C920615CDF0071B178 /* Sources */,
+				69FD56CA20615CDF0071B178 /* Frameworks */,
+				69FD56CB20615CDF0071B178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69FD56CF20615CDF0071B178 /* PBXTargetDependency */,
+			);
+			name = doorbellTests;
+			productName = doorbellTests;
+			productReference = 69FD56CD20615CDF0071B178 /* doorbellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69FD56D720615CDF0071B178 /* doorbellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69FD56E720615CDF0071B178 /* Build configuration list for PBXNativeTarget "doorbellUITests" */;
+			buildPhases = (
+				69FD56D420615CDF0071B178 /* Sources */,
+				69FD56D520615CDF0071B178 /* Frameworks */,
+				69FD56D620615CDF0071B178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69FD56DA20615CDF0071B178 /* PBXTargetDependency */,
+			);
+			name = doorbellUITests;
+			productName = doorbellUITests;
+			productReference = 69FD56D820615CDF0071B178 /* doorbellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69FD56B320615CDF0071B178 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jeremy Curcio";
+				TargetAttributes = {
+					69FD56BA20615CDF0071B178 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					69FD56CC20615CDF0071B178 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 69FD56BA20615CDF0071B178;
+					};
+					69FD56D720615CDF0071B178 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 69FD56BA20615CDF0071B178;
+					};
+				};
+			};
+			buildConfigurationList = 69FD56B620615CDF0071B178 /* Build configuration list for PBXProject "doorbell" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69FD56B220615CDF0071B178;
+			productRefGroup = 69FD56BC20615CDF0071B178 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69FD56BA20615CDF0071B178 /* doorbell */,
+				69FD56CC20615CDF0071B178 /* doorbellTests */,
+				69FD56D720615CDF0071B178 /* doorbellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69FD56B920615CDF0071B178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FD56C320615CDF0071B178 /* Assets.xcassets in Resources */,
+				69FD56C620615CDF0071B178 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FD56CB20615CDF0071B178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FD56D620615CDF0071B178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69FD56B720615CDF0071B178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FD56C120615CDF0071B178 /* ViewController.swift in Sources */,
+				69FD56BF20615CDF0071B178 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FD56C920615CDF0071B178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FD56D220615CDF0071B178 /* doorbellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FD56D420615CDF0071B178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FD56DD20615CDF0071B178 /* doorbellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69FD56CF20615CDF0071B178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69FD56BA20615CDF0071B178 /* doorbell */;
+			targetProxy = 69FD56CE20615CDF0071B178 /* PBXContainerItemProxy */;
+		};
+		69FD56DA20615CDF0071B178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69FD56BA20615CDF0071B178 /* doorbell */;
+			targetProxy = 69FD56D920615CDF0071B178 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69FD56C420615CDF0071B178 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69FD56C520615CDF0071B178 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69FD56DF20615CDF0071B178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69FD56E020615CDF0071B178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		69FD56E220615CDF0071B178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = doorbell/doorbell.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = doorbell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calltrackingmetrics.doorbell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		69FD56E320615CDF0071B178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = doorbell/doorbell.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = doorbell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calltrackingmetrics.doorbell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		69FD56E520615CDF0071B178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = doorbellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calltrackingmetrics.doorbellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doorbell.app/Contents/MacOS/doorbell";
+			};
+			name = Debug;
+		};
+		69FD56E620615CDF0071B178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = doorbellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calltrackingmetrics.doorbellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doorbell.app/Contents/MacOS/doorbell";
+			};
+			name = Release;
+		};
+		69FD56E820615CDF0071B178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = doorbellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calltrackingmetrics.doorbellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = doorbell;
+			};
+			name = Debug;
+		};
+		69FD56E920615CDF0071B178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = doorbellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calltrackingmetrics.doorbellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = doorbell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69FD56B620615CDF0071B178 /* Build configuration list for PBXProject "doorbell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69FD56DF20615CDF0071B178 /* Debug */,
+				69FD56E020615CDF0071B178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69FD56E120615CDF0071B178 /* Build configuration list for PBXNativeTarget "doorbell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69FD56E220615CDF0071B178 /* Debug */,
+				69FD56E320615CDF0071B178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69FD56E420615CDF0071B178 /* Build configuration list for PBXNativeTarget "doorbellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69FD56E520615CDF0071B178 /* Debug */,
+				69FD56E620615CDF0071B178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69FD56E720615CDF0071B178 /* Build configuration list for PBXNativeTarget "doorbellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69FD56E820615CDF0071B178 /* Debug */,
+				69FD56E920615CDF0071B178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69FD56B320615CDF0071B178 /* Project object */;
+}
