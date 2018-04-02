@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3338F0411946D9B1F0CD4642 /* Pods_doorbell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A039A9FB23097B2D13B99CF /* Pods_doorbell.framework */; };
+		699A51122063E2CB006A9BA6 /* doorbell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 699A51112063E2CB006A9BA6 /* doorbell.mp3 */; };
+		69FC117620657EC90075F4A7 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FC117520657EC90075F4A7 /* StatusMenuController.swift */; };
 		69FD56BF20615CDF0071B178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD56BE20615CDF0071B178 /* AppDelegate.swift */; };
-		69FD56C120615CDF0071B178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD56C020615CDF0071B178 /* ViewController.swift */; };
 		69FD56C320615CDF0071B178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FD56C220615CDF0071B178 /* Assets.xcassets */; };
 		69FD56C620615CDF0071B178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69FD56C420615CDF0071B178 /* Main.storyboard */; };
 		69FD56D220615CDF0071B178 /* doorbellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD56D120615CDF0071B178 /* doorbellTests.swift */; };
@@ -33,9 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A039A9FB23097B2D13B99CF /* Pods_doorbell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_doorbell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FE2A07C770CC5C6CCD0D15 /* Pods-doorbell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doorbell.release.xcconfig"; path = "Pods/Target Support Files/Pods-doorbell/Pods-doorbell.release.xcconfig"; sourceTree = "<group>"; };
+		699A51112063E2CB006A9BA6 /* doorbell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doorbell.mp3; sourceTree = "<group>"; };
+		69FC117520657EC90075F4A7 /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 		69FD56BB20615CDF0071B178 /* doorbell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doorbell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FD56BE20615CDF0071B178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		69FD56C020615CDF0071B178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		69FD56C220615CDF0071B178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69FD56C520615CDF0071B178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69FD56C720615CDF0071B178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +51,7 @@
 		69FD56D820615CDF0071B178 /* doorbellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doorbellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FD56DC20615CDF0071B178 /* doorbellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doorbellUITests.swift; sourceTree = "<group>"; };
 		69FD56DE20615CDF0071B178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A683F3EEFA7FA457B0A5444 /* Pods-doorbell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doorbell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-doorbell/Pods-doorbell.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3338F0411946D9B1F0CD4642 /* Pods_doorbell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,13 +80,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		489FDE194989FBF2CEF00753 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A683F3EEFA7FA457B0A5444 /* Pods-doorbell.debug.xcconfig */,
+				40FE2A07C770CC5C6CCD0D15 /* Pods-doorbell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		69FD56B220615CDF0071B178 = {
 			isa = PBXGroup;
 			children = (
+				699A51112063E2CB006A9BA6 /* doorbell.mp3 */,
 				69FD56BD20615CDF0071B178 /* doorbell */,
 				69FD56D020615CDF0071B178 /* doorbellTests */,
 				69FD56DB20615CDF0071B178 /* doorbellUITests */,
 				69FD56BC20615CDF0071B178 /* Products */,
+				489FDE194989FBF2CEF00753 /* Pods */,
+				FB99D98F7F7D010BE9939E85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				69FD56BE20615CDF0071B178 /* AppDelegate.swift */,
-				69FD56C020615CDF0071B178 /* ViewController.swift */,
+				69FC117520657EC90075F4A7 /* StatusMenuController.swift */,
 				69FD56C220615CDF0071B178 /* Assets.xcassets */,
 				69FD56C420615CDF0071B178 /* Main.storyboard */,
 				69FD56C720615CDF0071B178 /* Info.plist */,
@@ -124,6 +143,14 @@
 			path = doorbellUITests;
 			sourceTree = "<group>";
 		};
+		FB99D98F7F7D010BE9939E85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A039A9FB23097B2D13B99CF /* Pods_doorbell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69FD56E120615CDF0071B178 /* Build configuration list for PBXNativeTarget "doorbell" */;
 			buildPhases = (
+				4ADDF0F6AB8BE610BA8D646E /* [CP] Check Pods Manifest.lock */,
 				69FD56B720615CDF0071B178 /* Sources */,
 				69FD56B820615CDF0071B178 /* Frameworks */,
 				69FD56B920615CDF0071B178 /* Resources */,
+				B8E45E1FA8D91B9C3C550E95 /* [CP] Embed Pods Frameworks */,
+				6F931C8F12E1C36751BEE29E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69FD56C320615CDF0071B178 /* Assets.xcassets in Resources */,
+				699A51122063E2CB006A9BA6 /* doorbell.mp3 in Resources */,
 				69FD56C620615CDF0071B178 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,12 +283,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4ADDF0F6AB8BE610BA8D646E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-doorbell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F931C8F12E1C36751BEE29E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-doorbell/Pods-doorbell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8E45E1FA8D91B9C3C550E95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-doorbell/Pods-doorbell-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftWebSocket/SwiftWebSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftWebSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-doorbell/Pods-doorbell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		69FD56B720615CDF0071B178 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69FD56C120615CDF0071B178 /* ViewController.swift in Sources */,
+				69FC117620657EC90075F4A7 /* StatusMenuController.swift in Sources */,
 				69FD56BF20615CDF0071B178 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +498,7 @@
 		};
 		69FD56E220615CDF0071B178 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A683F3EEFA7FA457B0A5444 /* Pods-doorbell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = doorbell/doorbell.entitlements;
@@ -428,6 +514,7 @@
 		};
 		69FD56E320615CDF0071B178 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40FE2A07C770CC5C6CCD0D15 /* Pods-doorbell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = doorbell/doorbell.entitlements;
